@@ -1,0 +1,95 @@
+#container {
+  font-family: "futura", sans-serif;
+  position: relative;
+  top: 10px;
+  left: 700px;
+  margin: 0 auto;
+}
+#container2 {
+  font-family: "futura", sans-serif;
+  position: relative;
+  top: 10px;
+  left: 700px;
+  margin: 0 auto;
+}
+
+#board {
+  
+  display: grid;
+  grid-template-columns: repeat(5, 65px);
+  grid-template-rows: repeat(6, 65px);
+  gap: 5px;
+}
+
+.logo {
+  position: relative;
+  top: 0px;
+  left: -12px;
+}
+
+.square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 0px;
+  font-family: "futura", sans-serif;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #555555;
+  border-radius: 10%;
+  font-size: 50px;
+}
+
+.empty {
+  background-color: #2e2e2e;
+}
+
+.correct {
+  background-color: green;
+}
+
+.present {
+  background-color: rgb(225, 225, 1);
+}
+
+.absent {
+  background-color: #555555;
+}
+
+#input {
+  position: relative;
+  bottom: 200px;
+  width: 250px;
+  height: 30px;
+  margin: 10px 0;
+  background-color: #2e2e2e;
+  color: white;
+  font-size: 25px;
+}
+
+input:focus {
+  border: 3px solid #555555;
+}
+
+#submit {
+  position: relative;
+  bottom: 200px;
+  width: 100px;
+  height: 30px;
+  margin: 10px 0;
+  font-family: "futura", sans-serif;
+  font-size: 20px;
+}
+
+#keyboard {
+  display: grid;
+  position: relative;
+  bottom: 250px;
+  right: 675px;
+  grid-template-columns: repeat(9, 65px);
+  grid-template-rows: repeat(3, 65px);
+  gap: 5px;
+  /* border: 1px dashed grey; */
+  max-width: 630px;
+}
